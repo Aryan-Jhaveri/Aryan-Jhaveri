@@ -10,8 +10,8 @@
 
 | Project | Description |
 |---|---|
+| **[mcp-statcan](https://github.com/Aryan-Jhaveri/mcp-statcan)** `Python · MCP · SDMX · SQLite · CLI` | MCP server exposing Statistics Canada's WDS and SDMX REST APIs to any LLM client. Dual transport (HTTP / stdio), optional SQLite persistence, ~15 tools, pip-installable CLI. Published to PyPI, hosted on Render. |
 | **[dbRIP](https://github.com/Aryan-Jhaveri/dbRIP)** `Python · FastAPI · React · MCP` | REST API, React web app, CLI, UCSC track hub, and Claude MCP connector wrapping the Liang Lab (Brock) TE insertion polymorphism database — 44,984 polymorphisms across ALU, LINE1, SVA, HERVK in 33 populations (1000 Genomes, hg38). One CSV push rebuilds the entire stack via CI. |
-| **[mcp-statcan](https://github.com/Aryan-Jhaveri/mcp-statcan)** `Python · MCP · SDMX · SQLite` | MCP server exposing Statistics Canada's WDS and SDMX REST APIs to any LLM client. Dual transport (HTTP / stdio), optional SQLite persistence, ~15 tools. Published to PyPI, hosted on Render. |
 | **[mcp-foodguidecanada](https://github.com/Aryan-Jhaveri/mcp-foodguidecanada)** `Python · MCP · Health Canada APIs` | MCP server bundling Canada's Food Guide recipes, the Canadian Nutrient File (CNF), and Dietary Reference Intake tables into 46 tools for recipe search, macro calculation, and energy requirements. |
 
 ## Applications
