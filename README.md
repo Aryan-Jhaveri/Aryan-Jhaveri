@@ -2,9 +2,9 @@
 
 `B.Sc. '24 · Brock University · St. Catharines, ON`
 
-![Profile views](https://komarev.com/ghpvc/?username=Aryan-Jhaveri&label=Profile%20views&color=0e75b6&style=flat)
-![statcan-mcp-server downloads](https://static.pepy.tech/badge/statcan-mcp-server)
-![statcan-mcp-server monthly](https://img.shields.io/pypi/dm/statcan-mcp-server?label=statcan-mcp-server&color=green)
+[![PyPI downloads](https://static.pepy.tech/badge/statcan-mcp-server)](https://pepy.tech/project/statcan-mcp-server)
+[![PyPI version](https://img.shields.io/pypi/v/statcan-mcp-server?label=statcan-mcp-server)](https://pypi.org/project/statcan-mcp-server/)
+[![GitHub stars](https://img.shields.io/github/stars/Aryan-Jhaveri/mcp-statcan?label=stars)](https://github.com/Aryan-Jhaveri/mcp-statcan/stargazers)
 
 > I like data, I like STEM, I like to use computers to build things that help with data and STEM! Check out my projects and reach out to me on LinkedIn! Follow me as I learn things!
 
