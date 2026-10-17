@@ -22,6 +22,20 @@ Built for the Liang Lab at Brock. Their Shiny app is how people browse the datab
 Canada's Food Guide recipes, the Canadian Nutrient File and Dietary Reference Intakes live on separate Health Canada sites. This puts them in one place, so an AI assistant can plan meals and calculate nutrition from official data.<br>
 `Python` `MCP` `Health Canada APIs`
 
+## Tools for support teams
+
+**TourRadar CS Agent HUD** (private)<br>
+Built while I worked in customer support at TourRadar. A Chrome extension with four widgets that sit inside Twilio Flex and the booking pages, so agents can copy booking links, auto-fill enquiry forms, convert time zones, calculate travel credits and summarize notes with AI without switching tabs.<br>
+`JavaScript` `Chrome Extensions` `Gemini` `Jest` `GitHub Actions`
+
+**TASS.ai** (private, with a coworker)<br>
+An AI scribe for travel sales calls, inspired by AI scribes in healthcare. It listens to the call transcript, pulls out what the customer wants, and shows matching tours from TourRadar's MCP server while the agent is still talking.<br>
+`TypeScript` `React` `Gemini` `MCP`
+
+**TourRadar Dynamic Generator** (private)<br>
+Chat with an AI travel advisor over TourRadar's live tour inventory (50,000+ tours), and it generates a custom brochure page for the trip you asked about.<br>
+`TypeScript` `Gemini` `MCP`
+
 ## Apps
 
 **[Vastra](https://github.com/Aryan-Jhaveri/Vastra.cc)**<br>
@@ -42,6 +56,6 @@ A flight price tracker for Emma! Checks Toronto → Tasmania every morning, logs
 
 **[journal](https://aryan-jhaveri.github.io/journal/)** · A flip-book fictional journal you can page through.
 <br>
-`Python` `TypeScript` `R` `FastAPI` `React` `SQLite` `Docker` `MCP` `p5.js`
+`Python` `TypeScript` `JavaScript` `R` `FastAPI` `React` `SQLite` `Docker` `GitHub Actions` `Chrome Extensions` `MCP` `LLM APIs`
 
-[LinkedIn](https://linkedin.com/in/aryan-jhaveri-003563232)
+[LinkedIn](https://linkedin.com/in/aryan-jhaveri-003563232) · Open to support engineering, implementation and AI automation roles!
