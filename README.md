@@ -42,6 +42,7 @@ A flight price tracker for Emma! Checks Toronto → Tasmania every morning, writ
 ## 🎨 Creative coding
 
 **[TheMerchantPoem](https://aryan-jhaveri.github.io/TheMerchantPoem/)** · My poem, my song, and pixel art in a scrolling p5.js piece about heritage and lifelong learning, with free learning resources at the end.
+
 **[journal](https://aryan-jhaveri.github.io/journal/)** · A flip-book fictional journal you can actually page through.
 
 ---
