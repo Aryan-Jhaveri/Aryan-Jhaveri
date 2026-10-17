@@ -11,11 +11,11 @@
 ## Data & research tools
 
 **[mcp-statcan](https://github.com/Aryan-Jhaveri/mcp-statcan)**<br>
-Statistics Canada has 7,000+ data tables, and finding the right one takes a lot of clicking. This MCP server lets Claude and other AI assistants search and fetch StatCan data, and the `statcan` CLI downloads it without AI. Published on PyPI and hosted on Render, so there's nothing to install!<br>
+I made this after finishing my biostats course, when I realized Statistics Canada's API could be turned into an MCP server. It came before AI agents were scraping websites, and it goes through the official API so AI tools can reach 7,000+ tables without bogging down StatCan's site. There's also a `statcan` CLI for downloads without AI. Published on PyPI and hosted on Render, so there's nothing to install!<br>
 `Python` `MCP` `SDMX` `SQLite` `GitHub Actions`
 
 **[dbRIP](https://github.com/Aryan-Jhaveri/dbRIP)** · [web app](https://aryan-jhaveri.github.io/dbRIP/)<br>
-Built for the Liang Lab at Brock. Their database of 44,984 transposable element insertions (ALU, LINE1, SVA, HERVK) across 33 populations was only usable through one Shiny app. I wrapped it in a REST API, a React app, a CLI, a UCSC Genome Browser track hub and an MCP connector. The lab pushes one CSV and CI rebuilds everything.<br>
+Built for the Liang Lab at Brock. Their Shiny app is how people browse the database of 44,984 transposable element insertions (ALU, LINE1, SVA, HERVK) across 33 populations. I added ways to use it from code, the terminal and the UCSC Genome Browser: a REST API, a React app, a CLI, a track hub and an MCP connector. The lab pushes one CSV and CI rebuilds everything.<br>
 `FastAPI` `React` `TypeScript` `UCSC track hubs` `Docker`
 
 **[mcp-foodguidecanada](https://github.com/Aryan-Jhaveri/mcp-foodguidecanada)**<br>
