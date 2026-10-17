@@ -10,24 +10,37 @@
 
 ## Data & research tools
 
-| Project | Problem | What I built |
-|---|---|---|
-| **[mcp-statcan](https://github.com/Aryan-Jhaveri/mcp-statcan)**<br>`Python` `MCP` | Statistics Canada has 7,000+ data tables, and finding and pulling the right one takes a lot of clicking. | An MCP server so Claude and other AI assistants can search and fetch StatCan data, plus a CLI for downloads without AI. Published on PyPI, hosted on Render, releases automated with GitHub Actions. |
-| **[dbRIP](https://github.com/Aryan-Jhaveri/dbRIP)**<br>`FastAPI` `React` | The Liang Lab's genomics database (44,984 transposable element insertions) was only usable through one Shiny app. | A REST API, React web app, CLI, UCSC Genome Browser track hub and MCP connector. The lab updates one CSV and CI rebuilds everything. |
-| **[mcp-foodguidecanada](https://github.com/Aryan-Jhaveri/mcp-foodguidecanada)**<br>`Python` `MCP` | Canada's Food Guide recipes, nutrient data and dietary guidelines live on separate Health Canada sites. | An MCP server that combines them, so an AI assistant can find recipes and calculate nutrition and energy needs from official data. |
+**[mcp-statcan](https://github.com/Aryan-Jhaveri/mcp-statcan)**
+Statistics Canada has 7,000+ data tables, and finding the right one takes a lot of clicking. This MCP server lets Claude and other AI assistants search and fetch StatCan data, and the `statcan` CLI downloads it without AI. Published on PyPI and hosted on Render, so there's nothing to install!
+`Python` `MCP` `SDMX` `SQLite` `GitHub Actions`
+
+**[dbRIP](https://github.com/Aryan-Jhaveri/dbRIP)** · [web app](https://aryan-jhaveri.github.io/dbRIP/)
+Built for the Liang Lab at Brock. Their database of 44,984 transposable element insertions (ALU, LINE1, SVA, HERVK) across 33 populations was only usable through one Shiny app. I wrapped it in a REST API, a React app, a CLI, a UCSC Genome Browser track hub and an MCP connector. The lab pushes one CSV and CI rebuilds everything.
+`FastAPI` `React` `TypeScript` `UCSC track hubs` `Docker`
+
+**[mcp-foodguidecanada](https://github.com/Aryan-Jhaveri/mcp-foodguidecanada)**
+Canada's Food Guide recipes, the Canadian Nutrient File and Dietary Reference Intakes live on separate Health Canada sites. This puts them in one place, so an AI assistant can plan meals and calculate nutrition from official data.
+`Python` `MCP` `Health Canada APIs`
 
 ## Apps
 
-| Project | Problem | What I built |
-|---|---|---|
-| **[Vastra](https://github.com/Aryan-Jhaveri/Vastra.cc)**<br>`TypeScript` `React` | I wanted to know what's in my closet and what to wear without digging through it. | A self-hosted wardrobe app: photograph clothes and it tags them, suggests outfits for the weather, and does virtual try-on. Docker, PWA, multiple accounts. |
-| **[MCGEE](https://github.com/Aryan-Jhaveri/MCGEE)**<br>`Python` `Next.js` | Google Earth Engine code needs exact dataset and band names, which are easy to get wrong. | Five AI agents that research, write and check Earth Engine code against the real dataset catalog. [Demo](https://www.youtube.com/watch?v=_hWtLnabNxg) |
-| **[GetEmmaToTasmania](https://github.com/Aryan-Jhaveri/GetEmmaToTasmania)**<br>`Python` `GitHub Actions` | Emma wanted cheap flights to Tasmania without checking prices every day. | A daily job that checks prices, logs them to a Google Sheet and emails her when they drop. |
+**[Vastra](https://github.com/Aryan-Jhaveri/Vastra.cc)**
+My smart wardrobe! Take a photo of your clothes and it tags them, suggests outfits for today's weather, and lets you try things on virtually. Self-hosted, installs as a PWA, supports multiple accounts, and has its own MCP server.
+`TypeScript` `React` `Gemini` `Docker` `PWA`
+
+**[MCGEE](https://github.com/Aryan-Jhaveri/MCGEE)** · [demo](https://www.youtube.com/watch?v=_hWtLnabNxg)
+Google Earth Engine code needs exact dataset and band names, which are easy to get wrong. Five AI agents research, write and check the code against the real dataset catalog before handing it over.
+`Python` `Multi-agent LLMs` `Next.js` `WebSockets`
+
+**[GetEmmaToTasmania](https://github.com/Aryan-Jhaveri/GetEmmaToTasmania)**
+A flight price tracker for Emma! Checks Toronto → Tasmania every morning, logs prices to a Google Sheet, and emails her when they drop.
+`Python` `GitHub Actions` `Google Sheets API`
 
 ## Creative coding
 
-- **[TheMerchantPoem](https://aryan-jhaveri.github.io/TheMerchantPoem/)**: My poem and song in p5.js.
-- **[journal](https://aryan-jhaveri.github.io/journal/)**: Flip-book fictional journal.
+**[TheMerchantPoem](https://aryan-jhaveri.github.io/TheMerchantPoem/)** · My poem, my song, and pixel art in a scrolling p5.js piece about heritage and lifelong learning.
+
+**[journal](https://aryan-jhaveri.github.io/journal/)** · A flip-book fictional journal you can page through.
 
 `Python` `TypeScript` `R` `FastAPI` `React` `SQLite` `Docker` `MCP` `p5.js`
 
